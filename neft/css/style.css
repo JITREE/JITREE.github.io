@@ -1,0 +1,78 @@
+.item-header {
+  text-align: center;
+}
+.sub-header {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.it-sh {
+  margin-top: 10%;
+  text-align: center;
+}
+.block-greeting {
+  background-color: #9cf;
+  background: url(/src/img/background_lines.png) 0% 90% no-repeat, #99ccff;
+  background-size: 51em;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  position: relative;
+}
+.block-btn {
+  top: 75px;
+  position: relative;
+  text-align: center;
+}
+img.background {
+  top: 0px;
+  width: 51em;
+  position: absolute;
+}
+.services {
+  margin: 50px auto;
+}
+.service-card {
+  text-align: center;
+}
+.card-content {
+  min-width: 348px;
+  width: 85%;
+  height: 180px;
+  margin: 15px auto;
+  font-size: 250%;
+  color: black;
+  background-color: #fff;
+  padding-top: 9%;
+}
+.card-content:hover {
+  background-color: red ;
+  border: 0;
+  color: #fff;
+}
+.card-content .icon {
+  display: inline-block;
+}
+.text {
+  display: inline;
+}
+.services-title {
+  font-size: 250%;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.foot-content {
+  background-color: #9cf;
+  background: url(/src/img/background_lines.png) 0% 90% no-repeat, #99ccff;
+  background-size: 51em;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+.list-about {
+  text-decoration: none;
+  color: #000;
+}
+@media (max-width: 991px) {
+  img {
+    display: none;
+  }
+}
